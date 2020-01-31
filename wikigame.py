@@ -211,7 +211,7 @@ def restart():
 def timer(delay,labelTime):
     count = 0
     start = time.perf_counter()
-    while count < 5:
+    while count < 120:
         time.sleep(delay)
         count +=1
         elapsed = (time.perf_counter()-start)
